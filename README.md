@@ -79,8 +79,8 @@ every clock and wraps around on its own when it overflows. The output is high
 whenever the count is below whatever number is sitting in `duty`.
 
 ```verilog
-always @(posedge clk or negedge rst_n) begin
-    if (!rst_n) 
+always @(posedge clk or negedge reset_n) begin
+    if (!reset_n) 
         counter <= {WIDTH{1'b0}};
     else        
         counter <= counter + 1'b1;
