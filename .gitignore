@@ -1,0 +1,42 @@
+# Icarus Verilog / GTKWave
+*.vvp
+*.vcd
+*.out
+
+# LTspice regenerated output
+*.raw
+*.op.raw
+*.net
+*.plt
+*.db
+*.fft
+
+# Simulator and synthesis logs (regenerated; measurements are kept as .txt)
+*.log
+
+# Yosys intermediates
+*.blif
+*.edif
+*.json
+
+# Toolchain distributions - never commit these
+oss-cad-suite*/
+*.zip
+*.tar.gz
+*.7z
+
+# OS and editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+*.swp
+*~
+
+# OneDrive conflicted copies
+*-Conflict-*
+*conflicted copy*
+
+# Working files, not for publication
+CLAUDE.md
+.claude/
